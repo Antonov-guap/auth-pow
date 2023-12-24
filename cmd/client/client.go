@@ -9,7 +9,7 @@ import (
 	"github.com/Antonov-guap/auth-pow/pkg/pow"
 )
 
-const serverAddr = "localhost:8080"
+const serverAddr = "server:8080"
 
 func main() {
 	conn, err := net.Dial("tcp", serverAddr)

@@ -11,3 +11,7 @@ Design and implement “Word of Wisdom” tcp server.
 
 ## Solution
 
+As the POW algorithm, **scrypt** was chosen in combination with **hash** generation that includes **few leading zeros**. The scrypt algorithm allows for the adjustment of parameters in such a way as to ensure both computational resources and memory resources on the client side. Moreover, it is resistant to automated hash generation through specialized mining equipment (ASIC), which complicates potential DDOS attacks.
+
+## How to use
+A Makefile can be used to start a server and to run a client.

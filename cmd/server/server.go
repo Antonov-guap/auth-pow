@@ -14,7 +14,7 @@ import (
 )
 
 const (
-	listenAddr = "localhost:8080" // Адрес и порт сервера
+	listenAddr = "0.0.0.0:8080" // Адрес и порт сервера
 )
 
 func main() {
